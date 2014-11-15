@@ -3,10 +3,8 @@
 /*
 	Font style
 */
-@import url(http://fonts.googleapis.com/css?family=Mako);
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
-@import url(http://fonts.googleapis.com/css?family=Dosis:400,300,200);
-@import url(http://fonts.googleapis.com/css?family=Fenix);
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
 
 @import '_bootstrap';
 @import '_theme';
@@ -14,3 +12,144 @@
 @import 'font-awesome-4.2.0/scss/font-awesome.scss';
 
 .clearfix{clear:both;}
+.center {text-align: center;}
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+main.introduction {
+	@include container-fixed();
+	
+	@media (min-width: $screen-sm-min) {
+		width: $container-sm;
+	}
+	@media (min-width: $screen-md-min) {
+		width: $container-md;
+	}
+	@media (min-width: $screen-lg-min) {
+		width: 900px;
+		/*border: 1px solid;*/
+		/*width: $container-lg;*/
+	}
+	.introduction-left {				
+
+		/*@include make-row();*/
+
+		@media (min-width: $screen-sm-min) {
+			/*width: $container-sm;*/
+		}
+		@media (min-width: $screen-md-min) {
+			/*width: $container-md;*/
+		}
+		@media (min-width: $screen-lg-min) {
+			width: 425px;
+			/*height: 300px;*/
+			float:left;
+		}
+		/*border: 1px solid red;*/
+		background: url(../images/bg.png);
+		
+		.logo {
+			/*margin: 20px;*/
+				@media (min-width: $screen-sm-min) {
+					width: $container-sm;
+				}
+				@media (min-width: $screen-md-min) {
+					width: $container-md;
+				}
+				@media (min-width: $screen-lg-min) {
+					width: 299px;
+					padding:20px;
+					/*width: $container-lg;*/
+				}
+		}
+	}
+	.introduction-right {
+
+		/*@include make-row();*/
+
+		@media (min-width: $screen-sm-min) {
+			width: $container-sm;
+		}
+		@media (min-width: $screen-md-min) {
+			width: $container-md;
+		}
+		@media (min-width: $screen-lg-min) {
+			width: 425px;
+			/*height: 300px;*/
+			float:left;
+			/*border: 1px solid;*/
+		}
+		padding: 60px;
+		color: $brand-primary;
+		background: $background-primary;
+
+		form {	
+			@include container-fixed();
+
+			@media (min-width: $screen-sm-min) {
+				width: $container-sm;
+			}
+			@media (min-width: $screen-md-min) {
+				width: $container-md;
+			}
+			@media (min-width: $screen-lg-min) {
+				width: 360px;
+				/*width: $container-lg;*/
+			}
+			
+			select {
+				width: 276px;
+				height: 35px;
+				border: 0;
+				padding: 29px;
+			}
+
+			ul {
+				list-style: none;
+				.btn-green {
+					background: $btn-green;
+					padding: 5px 0;
+				}
+				.btn-red {
+					background: $btn-red;
+					padding: 5px 0;
+				}
+				li {
+					margin: 0 5px 0 0;
+					width: 125px;
+					float: left;
+					a {
+						display: block;
+						color: white;
+						font-size: 20px;
+
+						&:hover {
+							text-decoration: none;
+						}
+					}
+				}
+			}
+
+		}
+	}
+	
+
+}
+main{
+	@include container-fixed();
+
+	@media (min-width: $screen-sm-min) {
+		width: $container-sm;
+	}
+	@media (min-width: $screen-md-min) {
+		width: $container-md;
+	}
+	@media (min-width: $screen-lg-min) {
+		width: $container-lg;
+	}
+}
+
+	header{
+		@include make-row();
+	}	

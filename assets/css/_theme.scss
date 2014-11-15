@@ -1,25 +1,31 @@
 /* Theme */
 
-<<<<<<< HEAD
+
+
+/* 
+|	Background
+*/
+$background-primary: #f2f2f2;
 
 /* 
 |	Colours
 */
-$brand-primary: #ed5508;
-$brand-primary-dark: #aa330b;
-$bg-gradient-one: #dddddd;
-$bg-gradient-two: #fff;
+$brand-primary: #603913;
+$brand-primary-black: #2b2b2b;
+$btn-green: #27ae60;
+$btn-red: #c0392b;
 
 
 $border-dotted: 1px dotted #000;
 /* 
 |	Font sizes
 */
+.size-large {
+	font-size: 20px;
+}
+.size-exlarge {
+	font-size: 22px;
+}
 $font-style-primary: 'mako';
 $font-style-secondary: 'Dosis';
-=======
-$brand-primary: #ed5508;
-$brand-primary-dark: #aa330b;
-$bg-gradient-one: #dddddd;
-$bg-gradient-two: #fff;  
->>>>>>> develop
+
