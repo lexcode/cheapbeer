@@ -809,15 +809,15 @@ main.introduction .introduction-left{background:url(../images/bg.png)}
 main.introduction .introduction-right{padding:60px;color:#603913;background:#f2f2f2}
 @media (min-width:768px){main.introduction .introduction-right{width:750px}}
 @media (min-width:992px){main.introduction .introduction-right{width:970px}}
-@media (min-width:1200px){main.introduction .introduction-right{width:425px;float:left}}
+@media (min-width:1200px){main.introduction .introduction-right{width:445px;float:left}}
 main.introduction .introduction-right form{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
 main.introduction .introduction-right form:after,main.introduction .introduction-right form:before{content:" ";display:table}
 main.introduction .introduction-right form:after{clear:both}
 @media (min-width:768px){main.introduction .introduction-right form{width:750px}}
 @media (min-width:992px){main.introduction .introduction-right form{width:970px}}
-@media (min-width:1200px){main.introduction .introduction-right form{width:360px}}
+@media (min-width:1200px){main.introduction .introduction-right form{width:330px}}
 main.introduction .introduction-right form select{width:276px;height:35px;border:0;padding:29px}
-main.introduction .introduction-right form ul{list-style:none}
+main.introduction .introduction-right form ul{margin:0;padding:0 20px;list-style:none}
 main.introduction .introduction-right form ul .btn-green{background:#27ae60;padding:5px 0}
 main.introduction .introduction-right form ul .btn-red{background:#c0392b;padding:5px 0}
 main.introduction .introduction-right form ul li{margin:0 5px 0 0;width:125px;float:left}
