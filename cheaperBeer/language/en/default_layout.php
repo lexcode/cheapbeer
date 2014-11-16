@@ -1,0 +1,165 @@
+<?php
+$s=array(
+    'email_ok'=>'Confirmation message sent , Check your email account !!',
+    'email_fail'=>'No confirmation message !!',
+    //layout 
+    'l_title'=>'Cheapest Beer!! No bullshit !! Get drunk for Cheap',
+    'l_find'=>' Find ',
+    'l_flirt'=>' Meet ',
+    'l_error'=>' :~/ There isn\'t an CheaperBeer Page here. Check your url again!!',
+    'l_home'=>' Home ',
+    'l_phone'=>' 1-415-312-7750 ',
+    'title_phone'=>' Customer service',
+
+    'l_messages'=>' Messages ',
+    'l_client'=>' Client Area',
+    'l_setting'=>' Settings ',
+    'l_notification'=>' Notifications ',
+    'l_history'=>' History ',
+    'l_logout'=>' Log out ',
+    'l_give_feedback'=>'Give feedback',
+    'l_take_tour'=>'Take a webtour',
+    'l_add_sn'=>'Add my favorite social network',
+    'l_calendar'=>'CALENDAR',
+    'l_flirtpanel'=>'MY NETWORK',
+    'l_follow_panel'=>'FOLLOW US',
+    'l_ads_panel'=>'ADVERTISING',
+    'l_invitation_panel'=>'INVITE MY FRIENDS',
+    'l_myapps'=>'MY APPLICATIONS',
+    'l_add_apps'=>'Add @pps',
+    'l_feedback'=>' Feedback ',
+    'l_abtus'=>' About us ',
+    'l_term'=>' Term ',
+    'l_privacy'=>'Privacy',
+    'l_help'=>'Help',
+    'l_edit'=>' what\'s up',
+     'l_language'=>'Language',
+    'l_description'=>'Atttune is a simple social network to connect people having similar interest. Find, discuss and share with people nearby, Improve your online , local and social presence.',
+    'l_keywords'=>'simple,social, network,interest, local, global,community,find people,impact, collaboration',
+    
+    'fcbk_invitation'=>'CheaperBeer is a simple social network',
+    'title_gold'=>'GOLD',
+    'title_settings'=>'SETTINGS',
+    'title_logout'=>'LOGOUT',
+    'title_home'=>'HOME',
+    'title_messages'=>'MESSAGES',
+    'title_cnx_facebook'=>'connect with Facebook',
+
+    'placeh_email'=>'Enter email',
+    'placeh_pwd'=>'Enter password',
+    'signup_email'=>' Sign Up with email',
+    'signup_facebook'=>' Sign Up with Facebook',
+    'l_missing_page'=>':-( Page not found )-:',
+
+    
+    'vu_forgot'=>'Forgot your password?',
+                                  'vu_kcnx'=>'Remember me',
+                                  'vu_cnx'=>'Connect',
+    
+    //tips 
+    'tips_improve'=>'',
+    'tips_network'=>'Views all your connections, all people you can share with...',
+    'tips_invite'=>'the more, the merrier, the more the merrie...',
+    'tips_ads'=>'Sets of good advertising...',
+    'tips_apps'=>'Show your presence on the web, communicate with the world...',
+    'tips_myinteres'=>'Your hobbies, your skills, your preferences, all you like ...',
+    'tips_allinteres'=>'Clickable interest!! Hobbies, skills, preferences, all people like with no moderation...',
+    'tips_friend'=>'',
+    'tips_followus'=>'^_^ trying to make people connect, share passion and build new stuffs in happiness, it\'s such an am@zing work, thx to support us ^_^',
+    'tips_following'=>'',
+    'tips_improve'=>'',
+    // first page welcome
+    
+    'g_login'=>'Login',
+    'g_signin'=>'Client Area',
+    'g_signup'=>'Sign Up',
+    
+    'g_add'=>'Add',
+    'g_upload'=>'Upload',
+    'g_close'=>'Close',
+    'add_pic_to'=>'Add picture',
+    'g_select_pics'=>'Select',
+    'g_view_gallery'=>'Gallery',
+    'g_view_edit'=>'Edit',
+    'g_view_signup'=>'Sign up',
+    'g_profile'=>'Edit profile',
+
+    //couple type
+    'uare'=>'You are',
+    'cpl'=>'Couple', 
+    'w'=>'Women',
+    'm'=>'Men',
+    //date 
+    'mth'=>'Month',
+    'day'=>'Day',
+    'yea'=>'Year',
+    'mth1' =>'January' ,
+    'mth2'=>'February' ,
+    'mth3' =>'March',
+    'mth4' =>'April' ,
+    'mth5' => 'May' , 
+    'mth6' => 'June',
+    'mth7' => 'July', 
+    'mth8' =>'August',
+    'mth9' =>'September',
+    'mth10' =>'October', 
+    'mth11'=>'November', 
+    'mth12'=>'December',
+    //email notification
+    
+    'thx'=>'Best regard',
+    'the_team'=>'The CheaperBeer team .',
+    'new_visite'=>'New people visited your profile on CheaperBeer !',
+    'visite_interes'=>'One new people has visited your profile and looking for you : ',
+    'chg_setting'=>'You received this notification because you are a member of CheaperBeer.com .',
+    'upd_setting'=>'Change your notifications settings',
+    'signature'=>'We wish you fun dating ',
+    'whois'=>'View profile',
+    'noti_msg'=>'You have a new message',
+    'noti_visit'=>'You have a new visite on your profile',
+    'noti_mut_attrac'=>'You have a new flirt',
+    'noti_ask_friend'=>'You have a new friend request',
+    'noti_friend _accepted'=>'Your friend request has bee accepted on CheaperBeer',
+    'noti_comment'=>'You have a new comment',
+    'noti_recommend'=>'You have a new recommendation',
+    'noti_invit'=>'You have a new invitation ',
+    'noti_publi_gep'=>'New post',
+    'noti_important'=>'You have a important message from CheaperBeer',
+    'noti_favorite'=>'You have a new admirator',
+    'n-invitation'=>'Your friend invites you to join him onCheaperBeer',
+    'n-visit'=>'Confirm your email address',
+    'n-confirmation'=>'Confirm your email address!',
+    'n-forgot'=>'You requested a new CheaperBeer password',
+    'n-welcome'=>'Welcome on CheaperBeer',
+    'registrationn'=>'Thank you for registration on CheaperBeer',
+    'click2confirm'=>'Please note that you must confirm your registration to become a full member of our community.',
+    'confirmadress'=>'Confirm your email address!',
+    'nosollicitation'=>'If this email has been sent to you by mistake, please ignore it.',
+    'hi_msg'=>'Hi',
+    'thx_joining'=>'Thanks for joining our young community. CheaperBeer lets you meet new friends and share commons interests with them, hope you will appreciate!',
+    'invit_joining'=>'This person you know invite you to join our young community CheaperBeer. This new social network lets you meet new people and share commons interests with them, hope you will appreciate!',
+    'click_2_joining'=>'Click here to join your friend on CheaperBeer',
+    'n-msg-invite'=>'You recieve this email from : ',
+    'atttune-address'=>'CheaperBeer Inc., 26 Rue des Hameaux Sud, Fort-de-France, MQ 97200',
+    /***LISTE DE LANGUE
+*
+*
+**/
+
+
+'en'=>'English',
+
+'fr'=>'Français',
+
+//FIN LISTE DE LANGUE
+
+    'g_send'=>'Send',
+    'g_find'=>'Find...',
+    'g_seeking'=>'Seeking...',
+    
+    'g_search'=>'CheaperBeer - Find people with common interests',
+    'g_peoplenearby'=>'CheaperBeer - Meet people nearby',
+    'g_mpeoplenearby'=>'Meet people nearby',
+
+   
+);?>

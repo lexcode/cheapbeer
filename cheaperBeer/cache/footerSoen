@@ -1,0 +1,45 @@
+          
+          <hr>
+<div class="container-sn" style="width:100%; text-align:center;" id="like_bar">
+    <div class="row">
+        <span  style="display: inline-block;">
+        <span class="col-md-4 col-xs-4"><div class="fb-like" data-href="http://localhost/cheaperBeer" data-width="450" data-layout="box_count" data-show-faces="true" data-send="false"></div></span>
+     <span class="col-md-4 col-xs-4"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://localhost/cheaperBeer" data-via="atttune" data-lang="en" data-count="vertical">Tweet</a></span>
+     <span class="col-md-4 col-xs-4"><div class="g-plusone" data-size="tall"></div></span>  
+      
+        </span>
+      </div>
+     
+</div>
+      
+      <div class="first-header"></div>
+      <div class="footer" style="width:100%; text-align:center;" id="footer_bar">
+          
+        
+        <ul class="nav nav-pills" style="display: inline-block;">   
+            
+                   <li><a href="/cheaperBeer/about" title=" About us ">CheaperBeer &copy; 2014</a></li>
+                    <li><a href="https://atttune.uservoice.com" target="_blank" > Feedback </a></li>
+                    <li><a href="/cheaperBeer/term" > Term </a></li> 
+                    <li><a href="/cheaperBeer/privacy">Privacy</a></li> 
+                    <li><a href="/cheaperBeer/contact">Contact</a></li>
+                    <li class="dropup">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Language <span class="caret"></span></a>
+                                    
+                                    <ul class="dropdown-menu pull-rigth" role="menu" aria-labelledby="dLabel" id="settingpanel">
+                                                                                    <li id="lg-0">
+                                                <a href="/cheaperBeer/users/language/0" >English</a>
+                                            </li>
+                                                                                    <li id="lg-1">
+                                                <a href="/cheaperBeer/users/language/1" >Français</a>
+                                            </li>
+                                                                            </ul> 
+                                    
+                                </li>
+                   
+        </ul> 
+          <a href="#nav-head" class="btn btn-lg btn-inverse" id="scrollToTop"><i class="icon-chevron-up icon-white"></i></a>
+      </div>
+
+    </div>
+    
