@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
@@ -274,6 +274,7 @@ img{vertical-align:middle}
 hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}
 .sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
 .sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
+.size-small{font-size:14px}
 .size-large{font-size:20px}
 .size-exlarge{font-size:22px}
 /*!
@@ -794,7 +795,7 @@ hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}
 .fa-meanpath:before{content:"\f20c"}
 .clearfix{clear:both}
 .center{text-align:center}
-body{font-family:Lato,sans-serif}
+body,html{font-family:Lato,sans-serif;height:100%}
 main.introduction{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
 main.introduction:after,main.introduction:before{content:" ";display:table}
 main.introduction:after{clear:both}
@@ -810,25 +811,56 @@ main.introduction .introduction-right{padding:60px;color:#603913;background:#f2f
 @media (min-width:768px){main.introduction .introduction-right{width:750px}}
 @media (min-width:992px){main.introduction .introduction-right{width:970px}}
 @media (min-width:1200px){main.introduction .introduction-right{width:445px;float:left}}
-main.introduction .introduction-right form{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
-main.introduction .introduction-right form:after,main.introduction .introduction-right form:before{content:" ";display:table}
-main.introduction .introduction-right form:after{clear:both}
-@media (min-width:768px){main.introduction .introduction-right form{width:750px}}
-@media (min-width:992px){main.introduction .introduction-right form{width:970px}}
-@media (min-width:1200px){main.introduction .introduction-right form{width:330px}}
-main.introduction .introduction-right form select{width:276px;height:35px;border:0;padding:29px}
-main.introduction .introduction-right form ul{margin:0;padding:0 20px;list-style:none}
-main.introduction .introduction-right form ul .btn-green{background:#27ae60;padding:5px 0}
-main.introduction .introduction-right form ul .btn-red{background:#c0392b;padding:5px 0}
-main.introduction .introduction-right form ul li{margin:0 5px 0 0;width:125px;float:left}
-main.introduction .introduction-right form ul li a{display:block;color:#fff;font-size:20px}
-main.introduction .introduction-right form ul li a:hover{text-decoration:none}
-main{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
+main.introduction .introduction-right form.form-base{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
+main.introduction .introduction-right form.form-base:after,main.introduction .introduction-right form.form-base:before{content:" ";display:table}
+main.introduction .introduction-right form.form-base:after{clear:both}
+@media (min-width:768px){main.introduction .introduction-right form.form-base{width:750px}}
+@media (min-width:992px){main.introduction .introduction-right form.form-base{width:970px}}
+@media (min-width:1200px){main.introduction .introduction-right form.form-base{width:330px}}
+main.introduction .introduction-right form.form-base select{width:276px;height:35px;border:0;padding:29px}
+main.introduction .introduction-right form.form-base ul{margin:0;padding:0 20px;list-style:none}
+main.introduction .introduction-right form.form-base ul .btn-green{background:#27ae60;padding:5px 0}
+main.introduction .introduction-right form.form-base ul .btn-red{background:#c0392b;padding:5px 0}
+main.introduction .introduction-right form.form-base ul li{margin:0 5px 0 0;width:125px;float:left}
+main.introduction .introduction-right form.form-base ul li a{display:block;color:#fff;font-size:20px}
+main.introduction .introduction-right form.form-base ul li a:hover{text-decoration:none}
+main{height:100%;padding-left:15px;padding-right:15px;margin-left:-15px;margin-right:-15px}
 main:after,main:before{content:" ";display:table}
 main:after{clear:both}
-@media (min-width:768px){main{width:750px}}
-@media (min-width:992px){main{width:970px}}
-@media (min-width:1200px){main{width:1170px}}
-header{margin-left:-15px;margin-right:-15px}
-header:after,header:before{content:" ";display:table}
-header:after{clear:both}
+main header{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
+main header:after,main header:before{content:" ";display:table}
+main header:after{clear:both}
+@media (min-width:768px){main header{width:100%;height:110px;background:#f2f2f2}}
+@media (min-width:992px){main header{width:100%;height:110px;background:#f2f2f2}}
+@media (min-width:1200px){main header{width:100%;height:110px;background:#f2f2f2}}
+main header form.form-default{float:left}
+@media (min-width:768px){main header form.form-default{width:750px}}
+@media (min-width:992px){main header form.form-default{width:970px}}
+@media (min-width:1200px){main header form.form-default{width:380px}}
+main header form.form-default select{width:200px;height:35px;border:0;margin:35px 0 0 20px;padding:29px;float:left}
+main header form.form-default .calendar{margin:30px 0 0 15px;float:left;width:130px}
+main header form.form-default .calendar p{font-size:14px;float:left}
+main header form.form-default .calendar a.btn-calendar{width:33px;height:30px;display:block;margin:8px 10px;float:left;background:url(../images/calendar.png) 0 0/cover no-repeat}
+main header h1{float:left;margin-left:120px}
+main header h1 a{width:310px;height:65px;margin:0 auto;text-indent:-9000px;background:url(../images/min-logo.png) 0 0/cover no-repeat;display:block}
+main header .search{float:right;margin:35px}
+main header .search input{border:0;padding:5px;float:left}
+main header .search a{width:33px;height:30px;float:left;text-indent:-9000px;display:block;margin-left:10px;background:url(../images/menu.png) 0 0/cover no-repeat}
+main .container{height:100%;float:left;margin-top:5px;background:#e9e9e9;margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
+main .container:after,main .container:before{content:" ";display:table}
+main .container:after{clear:both}
+@media (min-width:1200px){main .container{width:100%}}
+main .container .login{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
+main .container .login:after,main .container .login:before{content:" ";display:table}
+main .container .login:after{clear:both}
+main .container .login h2{font-size:50px;color:#603913}
+@media (min-width:768px){main .container .login{width:750px}}
+@media (min-width:992px){main .container .login{width:970px}}
+@media (min-width:1200px){main .container .login{width:30%}}
+main .container .login dl.form-input dt{width:80px;float:left;padding:5px}
+main .container .login dl.form-input dd input{width:230px;padding:5px;border:0}
+main .container .login dl.btn{float:left;margin:20px 0 0 60px}
+main .container .login dl.btn dt{float:left}
+main .container .login dl.btn dt a{width:100px;height:35px;display:block;background:#27ae60;text-align:center;line-height:35px;color:#fff}
+main .container .login dl.btn dd{float:left}
+main .container .login dl.btn dd a{width:100px;height:35px;display:block;line-height:35px;color:#603913;font-size:18px}

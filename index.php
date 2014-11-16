@@ -27,7 +27,7 @@
         <p>Found the cheapest beer in your city <br>
         and how is going on the atmosphere. </p>
         <p class="size-exlarge">Where are you?</p>
-        <form action="">
+        <form class="form-base" action="">
           <select>
             <option value="">Dublin, Ireland</option>
           </select>

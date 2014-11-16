@@ -13,8 +13,10 @@
 
 .clearfix{clear:both;}
 .center {text-align: center;}
-body {
+
+html, body{
 	font-family: 'Lato', sans-serif;
+	height:100%;
 }
 
 main.introduction {
@@ -84,7 +86,7 @@ main.introduction {
 		color: $brand-primary;
 		background: $background-primary;
 
-		form {	
+		form.form-base {	
 			@include container-fixed();
 
 			@media (min-width: $screen-sm-min) {
@@ -139,19 +141,208 @@ main.introduction {
 
 }
 main{
+	height: 100%;
 	@include container-fixed();
-
-	@media (min-width: $screen-sm-min) {
-		width: $container-sm;
-	}
-	@media (min-width: $screen-md-min) {
-		width: $container-md;
-	}
+	@include make-row();
 	@media (min-width: $screen-lg-min) {
-		width: $container-lg;
+		/*width: $container-lg;*/
+		/*height: 150px;*/
+		/*background: $brand-primary-light;*/
+
 	}
+	header{
+
+		@include container-fixed();
+		/*@include make-row();*/
+		@media (min-width: $screen-sm-min) {
+			/*width: $container-sm;*/
+			width: 100%;
+			height: 110px;
+			background: $brand-primary-light;
+		}
+		@media (min-width: $screen-md-min) {
+			/*width: $container-md;*/
+			width: 100%;
+			height: 110px;
+			background: $brand-primary-light;
+		}
+		@media (min-width: $screen-lg-min) {
+			width: 100%;
+			height: 110px;
+			background: $brand-primary-light;
+		}
+		form.form-default {
+
+			/*@include container-fixed(); //just if you want center it */
+
+			@media (min-width: $screen-sm-min) {
+				width: $container-sm;
+			}
+			@media (min-width: $screen-md-min) {
+				width: $container-md;
+			}
+			@media (min-width: $screen-lg-min) {
+				width: 380px;
+				/*width: $container-lg;*/
+			}
+			float: left;
+			select {
+				width: 200px;
+				height: 35px;
+				border: 0;
+				margin: 35px 0 0 20px;
+				padding: 29px;
+				float: left;
+			}
+			.calendar {
+				margin: 30px 0 0 15px;
+				float: left;
+				width: 130px;
+
+				p {
+					font-size: 14px;
+					float: left;
+				}
+
+				a.btn-calendar {
+					width: 33px;
+					height: 30px;
+					display: block;
+					margin: 8px 10px;
+					float: left;
+					background: url(../images/calendar.png) no-repeat;
+					-webkit-background-size: cover;
+					-moz-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;
+	
+				}
+			}
+
+
+		} 
+		h1 {
+			float: left;
+			margin-left: 120px;
+			a {
+				width: 310px;
+				height: 65px;
+				margin: 0 auto;
+				text-indent: -9000px;
+				background: url(../images/min-logo.png) no-repeat;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				display: block;
+				span {
+					
+				}
+			}
+		}
+		.search {
+			float: right;
+			margin: 35px;
+			input {
+				border: 0;
+				padding: 5px;
+				float: left;
+			}
+			a {
+				width: 33px;
+				height: 30px;
+				float: left;
+				text-indent: -9000px;
+				display: block;
+				margin-left: 10px;
+				background: url(../images/menu.png) no-repeat;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+			}
+		}
+	}
+
+	.container {
+		height: 100%;
+		float: left;
+		margin-top: 5px;
+		background: #e9e9e9;
+
+		@include container-fixed();
+/*		@media (min-width: $screen-sm-min) {
+			width: $container-sm;
+		}
+		@media (min-width: $screen-md-min) {
+			width: $container-md;
+		}*/
+		@media (min-width: $screen-lg-min) {
+			width: 100%;
+		}
+
+		.login {
+			@include container-fixed();
+			h2 {
+				font-size: 50px;
+				color: $brand-primary;
+
+			}
+
+			@media (min-width: $screen-sm-min) {
+				width: $container-sm;
+			}
+			@media (min-width: $screen-md-min) {
+				width: $container-md;
+			}
+			@media (min-width: $screen-lg-min) {
+				width: 30%;
+			}
+
+			dl.form-input {
+				dt {
+					width: 80px;
+					float: left;
+					padding: 5px;
+				}
+				dd {
+					input {
+						width: 230px;
+						padding: 5px;
+						border: 0;
+					}
+				}
+			}
+
+			dl.btn {
+				float: left;
+				margin: 20px  0 0 60px;
+				dt {
+					float: left;
+					a {
+						width: 100px;
+						height: 35px;
+						display: block;
+						background: #27ae60;
+						text-align: center;
+						line-height: 35px;
+						color: white;
+					}
+				}
+
+				dd {
+					float: left;
+					a {
+						width: 100px;
+						height: 35px;
+						display: block;
+						line-height: 35px;
+						color: $brand-primary;
+						font-size: 18px;
+					}
+				}
+			}
+		}
+	}	
 }
 
-	header{
-		@include make-row();
-	}	

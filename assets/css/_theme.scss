@@ -12,6 +12,7 @@ $background-primary: #f2f2f2;
 */
 $brand-primary: #603913;
 $brand-primary-black: #2b2b2b;
+$brand-primary-light: #f2f2f2;
 $btn-green: #27ae60;
 $btn-red: #c0392b;
 
@@ -20,6 +21,9 @@ $border-dotted: 1px dotted #000;
 /* 
 |	Font sizes
 */
+.size-small {
+	font-size: 14px;
+}
 .size-large {
 	font-size: 20px;
 }
