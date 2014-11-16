@@ -8,7 +8,6 @@
 
     <!-- css -->
     <link href="assets/css/main.css" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -38,20 +37,24 @@
         <article>
           <table class="list">
             <thead>
-              <th>Pub/Bar</th>
-              <th>Beer</th>
-              <th>Price</th>
-              <th>Atmosphere</th>
+              <tr>
+                <th>Pub/Bar</th>
+                <th>Beer</th>
+                <th>Price</th>
+                <th>Atmosphere</th>
+                <th>&nbsp;</th>
+              </tr>
             </thead>
             <tbody>
-              <td>Diceys</td>
-              <td>Corona</td>
-              <td>2,50</td>
-              <td>
-                <ul>
-                  <li>a</li>
-                </ul>
-              </td>
+              <tr>
+                <td>Diceys</td>
+                <td>Corona</td>
+                <td>€2,50</td>
+                <td class="rating">
+                  <input type="hidden" class="rating" data-filled="symbol symbol-filled" data-empty="symbol symbol-empty"/> 
+                </td>
+                <td class="result-rating"></td>
+              </tr>
             </tbody>
           </table>
         </article>
@@ -60,6 +63,12 @@
 
 
 
-
+    <script type="text/javascript" src="http://dreyescat.github.io/bootstrap-rating/bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="http://dreyescat.github.io/bootstrap-rating/bootstrap-rating.js"></script>
+    <script>
+      var a = $('input.check').on('change', function () {
+        alert('Rating: ' + $(this).val());
+      });
+    </script>
   </body>
 </html>
